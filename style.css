@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Hanken Grotesk", sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+h1 {
+    padding: 0rem;
+    font-size: 60px;
+}
+
+h2 {
+    padding: 1rem;
+}
+
+h3 {
+    padding: 1rem;
+}
+
+section {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+}
+
+table {
+    display: flex;
+    flex-direction: column;
+    border: none;
+}
+
+tr {
+    display: flex;
+    justify-content: space-between;
+}
+
+td {
+    padding: 1rem;
+    color: hsl(224, 30%, 27%);
+}
+
+button {
+    padding: 1rem;
+    background-color: hsl(224, 30%, 27%);
+    color: hsl(221, 100%, 96%);
+    border-radius: 30px;
+    border: none;
+    font-weight: 700;
+}
+
+.a {
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    color: hsl(221, 100%, 96%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+svg {
+    margin-right: 1rem;
+    vertical-align: middle;
+}
+
+.b {
+    color: hsl(0, 100%, 67%);
+}
+
+.c {
+    color: hsl(39, 100%, 56%);
+}
+
+.d {
+    color: hsl(166, 100%, 37%);
+}
+
+.e {
+    color: hsl(234, 85%, 45%);
+}
+
+.f {
+    color: hsl(241, 100%, 89%);
+}
+
+.g {
+    padding: 2.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    border-radius: 100%;
+    block-size: 150px;
+    overflow: hidden;
+}
+
+@media (min-width: 375px) {
+	body {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		background-color: hsl(0, 0%, 100%);
+        margin-top: 128px;
+        margin-bottom: 128px;
+	}
+
+	main {
+		width: 575px;
+		background-color: hsl(0, 0%, 100%);
+		padding: 0;
+	}
+    table {
+        width: 250px;
+    }
+}
